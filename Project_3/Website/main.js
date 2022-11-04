@@ -7,16 +7,20 @@
     const ctx = document.getElementById('myChart')
     
     const myChart = new Chart(ctx, {
-      type: 'line',
+      type: 'radar',
       data: {
         labels: [
-          'Sunday',
-          'Monday',
-          'Tuesday',
-          'Wednesday',
-          'Thursday',
-          'Friday',
-          'Saturday'
+          'Eastern and Southern Africa',
+          'Western and Central Africa',
+          'Arab World',
+          'Australia',
+          'Central Europe and the Baltics',
+          'Eastern Europe and Central Asia',
+          'European Union',
+          'Latin America and Carribean',
+          'Middle East and North Africa',
+          'North America',
+          'South Asia',
         ],
         datasets: [{
           data: [
@@ -29,10 +33,10 @@
             12034
           ],
           lineTension: 0,
-          backgroundColor: 'transparent',
-          borderColor: '#007bff',
-          borderWidth: 4,
-          pointBackgroundColor: '#007bff'
+          backgroundColor: 'rgba(00,255,00,0.1)',
+          borderColor: '#00FF00',
+          borderWidth: 2,
+          pointBackgroundColor: '#00FF00'
         }]
       },
       options: {
