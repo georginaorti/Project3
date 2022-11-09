@@ -9,7 +9,7 @@
                'North America', 
                'South and Central America'],
       datasets: [{
-          label: 'Energy Production by Type and Region (in TWh)',
+          label: 'Energy Production by Type and Region (TWh)',
           data: [
               {id: 'Africa', electricity:
                   {

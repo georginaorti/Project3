@@ -15,8 +15,8 @@
     <title>Project 3</title>
     <style>
       * {
-        margin: 0;
-        padding: 0;
+        margin: 20;
+        padding: 20;
         font-family: sans-serif;
       }
       .chartMenu {
@@ -50,7 +50,7 @@
     <div class="chartMenu">
       <p>UCI Data Project 3</p>
     </div>
-    <div class="chartCard">
+    
       <div class="chartBox">
         <canvas id="myChart"></canvas>
         <select id="year" onchange="changeElectricity()">
@@ -68,17 +68,27 @@
             <option value="nuclear">nuclear</option>
         </select>
       </div>
+      <div class="chartCard2">
+        <div class="chartBox2">
+          <canvas id="myGraph"></canvas>
+          <select id="years" onchange="changeEmissions()">
+              <option value="2000">2000</option>
+              <option value="2018">2018</option>
+          </select>
+      </div>
       
 
       </div>
-      <div id="mapContainer">
-
-        <div id="map">
-        </div>
+      <div class = "mapBox">
+        <div class="mapContainer">
+          <div id="map">
+          </div> 
+        </div> 
       </div>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="mymap.js"></script>
+    <script type="text/javascript" src="co2.js"></script>
 
   </body>
 </html>

@@ -1,30 +1,37 @@
 /* Remove the default margin and padding from the body. */
-body {
-    padding: 0;
-    margin: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
   
   /* Set map, body, and html to 100% of the screen size. */
+ #mapBox
+  {
+    width: 100vw;
+        height: calc(60vh - 40px);
+        background: rgba(194, 161, 172, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+ 
   #mapContainer
  {
-    height: 500px;
-    width: 500px;
+  width: 20px;
+
+  padding: 20px;
+  border-radius: 20px;
     align-items: center;
     justify-content: center;
-  }
-
-  #mapBox
-
-  {
-
   }
   
   h1 {
     text-align: center;
   }
 
-#map{height: 500px; 
-    width: 500px;
+#map{height: 400px; 
+    width: 400px;
     align-items: center;
     justify-content: center;
   }
