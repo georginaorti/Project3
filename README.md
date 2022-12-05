@@ -6,7 +6,11 @@ The data set was found online and we used SQLAlchemy to create a flask API so we
 The website showing the data visualizations is hosted by Amazon AWS Amplify.
 
 Group members:
+
 Vandan - Created the flask API and hosted the website for the visualizations
+
 Jeff - Filtered and analyzed the data
+
 Michael - Created the dynamic bar chart visualization on the website.
+
 Georgina - Created the dynamic map visualization on the website.
